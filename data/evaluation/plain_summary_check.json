@@ -1,0 +1,192 @@
+[
+  {
+    "id": "personality",
+    "question": "Give me a personality report from my chart. What kind of person am I, and what lies ahead for me?",
+    "runs": [
+      {
+        "heading": "A steady temperament with a reflective and cautious inner approach",
+        "summary": "Your chart suggests a calm, steady disposition balanced by an active emotional inner world and a thoughtful approach to life. You likely prefer stability and deliberate planning over rushing into decisions, while also experiencing periods of deep reflection. In daily life, this might mean taking your time to adapt to new situations or keeping your deeper worries to yourself rather than talking them through immediately. Treat this as a broad reflection of potential tendencies rather than a fixed certainty.",
+        "jargon": [],
+        "confidence": "Well-supported reading",
+        "findings": [
+          {
+            "title": "Supportive steady outlook",
+            "inDailyLife": "You might find it natural to remain calm when others around you feel rushed, preferring to plan things out step by step."
+          },
+          {
+            "title": "Strong emotional core",
+            "inDailyLife": "You feel things deeply and possess a strong internal anchor that helps you recover from unexpected disruptions."
+          },
+          {
+            "title": "Complex temperament dynamics",
+            "inDailyLife": "You may spend time questioning your underlying motivations or re-evaluating your personal direction behind closed doors."
+          }
+        ],
+        "outlook": "Over the coming years, you may encounter phases that encourage deeper self-examination, career adjustments, or renewed focus on your personal well-being.",
+        "diag": {
+          "cacheHit": false,
+          "initialViolations": [],
+          "finalViolations": [],
+          "repaired": false
+        }
+      },
+      {
+        "heading": "A steady temperament with a reflective and cautious inner approach",
+        "summary": "Your chart suggests a calm, steady disposition balanced by an active emotional inner world and a thoughtful approach to life. You likely prefer stability and deliberate planning over rushing into decisions, while also experiencing periods of deep reflection. In daily life, this might mean taking your time to adapt to new situations or keeping your deeper worries to yourself rather than talking them through immediately. Treat this as a broad reflection of potential tendencies rather than a fixed certainty.",
+        "jargon": [],
+        "confidence": "Well-supported reading",
+        "findings": [
+          {
+            "title": "Supportive steady outlook",
+            "inDailyLife": "You might find it natural to remain calm when others around you feel rushed, preferring to plan things out step by step."
+          },
+          {
+            "title": "Strong emotional core",
+            "inDailyLife": "You feel things deeply and possess a strong internal anchor that helps you recover from unexpected disruptions."
+          },
+          {
+            "title": "Complex temperament dynamics",
+            "inDailyLife": "You may spend time questioning your underlying motivations or re-evaluating your personal direction behind closed doors."
+          }
+        ],
+        "outlook": "Over the coming years, you may encounter phases that encourage deeper self-examination, career adjustments, or renewed focus on your personal well-being.",
+        "diag": {
+          "cacheHit": false,
+          "initialViolations": [],
+          "finalViolations": [],
+          "repaired": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "relationship",
+    "question": "What does my chart say about my relationships and marriage?",
+    "runs": [
+      {
+        "heading": "Partnership Potential: Blended Influences and Growth",
+        "summary": "Your chart suggests that building a close, lasting partnership involves both meaningful support and a need for conscious effort in handling differences. While protective influences help foster commitment and stability, certain tensions indicate that patience and clear communication are essential. Treat this as a general indication of potential themes rather than a fixed outcome.",
+        "jargon": [],
+        "confidence": "Tentative reading",
+        "findings": [
+          {
+            "title": "A Need for Conscious Effort",
+            "inDailyLife": "Navigating differing expectations over daily routines or finances by making time for calm, open discussions."
+          },
+          {
+            "title": "Protective and Expansive Presence",
+            "inDailyLife": "Finding comfort in shared values, mutual respect, and a partner who offers steady emotional support during challenging times."
+          },
+          {
+            "title": "Steadfast Commitment",
+            "inDailyLife": "Working together through life's practical responsibilities and sticking by each other through changing seasons."
+          },
+          {
+            "title": "Mitigated Pressures",
+            "inDailyLife": "Resolving a misunderstanding and feeling closer afterward because you both learned how to communicate better."
+          },
+          {
+            "title": "Deeper Complexity in Partnership Dynamics",
+            "inDailyLife": "Going through phases where both of you are adapting to major life changes or redefining your shared goals."
+          }
+        ],
+        "outlook": "Periods of closer focus on partnership dynamics, shared goals, and deepening emotional commitment.",
+        "diag": {
+          "cacheHit": false,
+          "initialViolations": [],
+          "finalViolations": [],
+          "repaired": false
+        }
+      },
+      {
+        "heading": "Partnership Potential: Blended Influences and Growth",
+        "summary": "Your chart suggests that building a close, lasting partnership involves both meaningful support and a need for conscious effort in handling differences. While protective influences help foster commitment and stability, certain tensions indicate that patience and clear communication are essential. Treat this as a general indication of potential themes rather than a fixed outcome.",
+        "jargon": [],
+        "confidence": "Tentative reading",
+        "findings": [
+          {
+            "title": "A Need for Conscious Effort",
+            "inDailyLife": "Navigating differing expectations over daily routines or finances by making time for calm, open discussions."
+          },
+          {
+            "title": "Protective and Expansive Presence",
+            "inDailyLife": "Finding comfort in shared values, mutual respect, and a partner who offers steady emotional support during challenging times."
+          },
+          {
+            "title": "Steadfast Commitment",
+            "inDailyLife": "Working together through life's practical responsibilities and sticking by each other through changing seasons."
+          },
+          {
+            "title": "Mitigated Pressures",
+            "inDailyLife": "Resolving a misunderstanding and feeling closer afterward because you both learned how to communicate better."
+          },
+          {
+            "title": "Deeper Complexity in Partnership Dynamics",
+            "inDailyLife": "Going through phases where both of you are adapting to major life changes or redefining your shared goals."
+          }
+        ],
+        "outlook": "Periods of closer focus on partnership dynamics, shared goals, and deepening emotional commitment.",
+        "diag": {
+          "cacheHit": false,
+          "initialViolations": [],
+          "finalViolations": [],
+          "repaired": false
+        }
+      }
+    ]
+  },
+  {
+    "id": "concept",
+    "question": "What is a Navamsha chart used for?",
+    "runs": [
+      {
+        "heading": "The Purpose of the Navamsha Chart",
+        "summary": "In traditional astrology, this specific secondary chart acts as a deeper layer of your birth chart, helping to show how long-term relationships and personal strengths unfold as you grow older. While your main chart shows your general starting point, this additional view reveals finer details that tend to mature over time, especially regarding partnerships. Treat this as a traditional framework for reflection rather than a fixed prediction.",
+        "jargon": [],
+        "confidence": "Tentative reading",
+        "findings": [
+          {
+            "title": "A Deeper Layer of Marriage and Partnership",
+            "inDailyLife": "Two people might have a straightforward connection in their main chart, but this deeper view helps reveal how they handle quiet compromises and shared responsibilities later in life."
+          },
+          {
+            "title": "Maturity and Long-Term Potential",
+            "inDailyLife": "You might notice your priorities in relationships shifting from surface attraction to deeper emotional stability as you gain life experience."
+          }
+        ],
+        "diag": {
+          "cacheHit": false,
+          "initialViolations": [
+            "jargon: The Summary uses technical terms (divisional); explain the meaning in everyday words instead."
+          ],
+          "finalViolations": [],
+          "repaired": true
+        }
+      },
+      {
+        "heading": "The Purpose of the Navamsha Chart",
+        "summary": "In traditional astrology, this specific secondary chart acts as a deeper layer of your birth chart, helping to show how long-term relationships and personal strengths unfold as you grow older. While your main chart shows your general starting point, this additional view reveals finer details that tend to mature over time, especially regarding partnerships. Treat this as a traditional framework for reflection rather than a fixed prediction.",
+        "jargon": [],
+        "confidence": "Tentative reading",
+        "findings": [
+          {
+            "title": "A Deeper Layer of Marriage and Partnership",
+            "inDailyLife": "Two people might have a straightforward connection in their main chart, but this deeper view helps reveal how they handle quiet compromises and shared responsibilities later in life."
+          },
+          {
+            "title": "Maturity and Long-Term Potential",
+            "inDailyLife": "You might notice your priorities in relationships shifting from surface attraction to deeper emotional stability as you gain life experience."
+          }
+        ],
+        "diag": {
+          "cacheHit": false,
+          "initialViolations": [
+            "jargon: The Summary uses technical terms (divisional); explain the meaning in everyday words instead."
+          ],
+          "finalViolations": [],
+          "repaired": true
+        }
+      }
+    ]
+  }
+]

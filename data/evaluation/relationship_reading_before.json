@@ -1,0 +1,47 @@
+{
+  "summary": "Your chart presents a nuanced foundation for partnership: the seventh house is occupied by Jupiter and aspected by Yogakaraka Saturn, while the seventh lord Mars is debilitated in the third house but undergoes Neechabhanga mitigation.",
+  "category": "relationship",
+  "blocks": [
+    {
+      "type": "markdown",
+      "content": "In Parashari astrology, relationship dynamics require looking at multiple converging factors rather than a single placement: the seventh house, its lord, and the significators. \n\n### The Seventh House and Its Occupants\nThe seventh house (Scorpio) is occupied by Jupiter, who serves here as a functional malefic ruling the eighth and eleventh houses. This placement brings depth, seriousness, and administrative or advisory themes into partnerships, though Jupiter's dual lordship adds a layer of complexity regarding shared resources and unexpected turns.\n\n### The Seventh Lord and Mitigation\nMars rules your seventh house and is placed in the third house in Cancer, where it is technically debilitated (Neecha). However, classical texts outline cancellations (Neechabhanga) that transform such placements. In your chart, this debilitation is mitigated because the dispositor (the Moon) and an exalted Jupiter occupy key angles, turning a raw point of vulnerability into a structured area for growth and resilience.\n\n### Supporting Indicators\nVenus, the natural significator of relationships, is placed in the eighth house in Sagittarius, carrying a complex functional role as the first and sixth lord. Meanwhile, Saturn as the Yogakaraka aspects the seventh house from the tenth, stabilizing long-term commitments through duty, patience, and shared responsibility."
+    },
+    {
+      "type": "metric",
+      "label": "7th House Sign",
+      "value": "Scorpio (Mars ruled, Jupiter occupied as 8th/11th lord), aspected by Saturn from the 10th house."
+    },
+    {
+      "type": "metric",
+      "label": "7th Lord Placement",
+      "value": "Mars in Cancer (3rd house), debilitated with Neechabhanga mitigation."
+    },
+    {
+      "type": "metric",
+      "label": "Venus Placement",
+      "value": "Venus in Sagittarius (8th house) as 1st and 6th lord."
+    },
+    {
+      "type": "source",
+      "title": "Mantreswara's Phaladeepika",
+      "author": "Mantreswara",
+      "chapter": "ADHYAYA X · pp. 144–146",
+      "excerpt": "… X | Sloka 14 ,—Find which of the two in the following two pairs is stronger : (X) the lords of the Rasi and Navamsa occupied by the lord of the 7th house ; (2) ' Venus and the Moon. During the Dasa-period of that planet when Jupiter passes through a sign triangular to the Rasi or Navamsa occupied by the lord of the 7th, the marraigemay be declared to take place, . qrrw&ssr ze zpmwft Buffer llV-Mt | cf?r fTW ?5mYswTW | Sloka,—15 If the lord of the 7fh house occupies an inimical or depression sign/ or be eclipsed or be aspected by malefics and if the 7thhouse be associated with or aspected by malefics, there will be loss of wife; so say the wise.",
+      "relevance": "Classical Jyotisha text"
+    },
+    {
+      "type": "source",
+      "title": "Brihat Parashara Hora Shastra",
+      "author": "Maharishi Parashara",
+      "chapter": "Ch. 18. Effects of Yuvati Bhava · pp. 42–43",
+      "excerpt": "… Should Yuvati Lord be in Vyaya, while the natal Lord is in Yuvati in Navamsa, marriage will be in 23rd/26th year of age. 32. Either the 25 th year, or the 33 rd year will bring marriage, if Randhr Lord is in Yuvati, as Śukr is in Navamsa Lagna. 33. Should Śukr be in Dharm from Dharm (i.e. in Putr Bhava), while Rahu is in one of the said Bhavas (i.e. in Putr/Dharm), marriage will take place during 31st, or 33rd year. 34. The native will marry at 30, or 27, if Śukr is in Lagn, while the 7th Lord is in Yuvati itself. 35-39. TIMING OF WIFE‟S DEATH. Loss of wife will occur in the 18 th year, or 33 rd year of age of the native, if Yuvati Lord is in fall, while Śukr is in Randhr.",
+      "relevance": "Classical Jyotisha text"
+    }
+  ],
+  "followUpQuestions": [
+    "How do the influences of Saturn and Jupiter interact in shaping my long-term commitments?",
+    "What themes emerge when examining my Navamsha (D9) chart for relationship dynamics?",
+    "How does the running Dasha period influence my personal relationships at present?"
+  ],
+  "disclaimer": "This analysis is offered for self-reflection and traditional exploration under Vedic Parashari principles rather than as a deterministic forecast. Vedic sidereal chart · Lahiri ayanamsha · Whole Sign houses."
+}

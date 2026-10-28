@@ -1,0 +1,123 @@
+{
+  "engine": "Vyom Advanced RAG Knowledge Ingestion Pipeline v2.0",
+  "processedAt": "2026-10-27T17:59:55Z",
+  "totalFiles": 11,
+  "successfulFiles": 11,
+  "failedFiles": 0,
+  "totalChunks": 3245,
+  "totalExtractedChars": 5581433,
+  "files": [
+    {
+      "id": "doc-bphs",
+      "filename": "403096259-brihat-parashara-hora-shastra-english-V-pdf.pdf",
+      "status": "success",
+      "chunks": 389,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    },
+    {
+      "id": "doc-brihat-jataka",
+      "filename": "2015.406251.Brihat-Jataka_text.pdf",
+      "status": "success",
+      "chunks": 330,
+      "lowQualityChunks": 330,
+      "textLayerStatus": "unusable_needs_ocr",
+      "error": null
+    },
+    {
+      "id": "doc-phaladeepika",
+      "filename": "phaladeepika-2nd-ed-1950-by-v-subrahmanya-sastri-text.pdf",
+      "status": "success",
+      "chunks": 380,
+      "lowQualityChunks": 10,
+      "textLayerStatus": "partial",
+      "error": null
+    },
+    {
+      "id": "doc-saravali",
+      "filename": "Saravali.pdf",
+      "status": "success",
+      "chunks": 315,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    },
+    {
+      "id": "doc-jataka-parijata",
+      "filename": "jataka-parijata-vol-1.pdf",
+      "status": "success",
+      "chunks": 246,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    },
+    {
+      "id": "doc-rao-lessons",
+      "filename": "book1-for-CD.pdf",
+      "status": "success",
+      "chunks": 265,
+      "lowQualityChunks": 2,
+      "textLayerStatus": "partial",
+      "error": null
+    },
+    {
+      "id": "doc-vasudev-origin",
+      "filename": "Astrology-e-book-compressed.pdf",
+      "status": "success",
+      "chunks": 104,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    },
+    {
+      "id": "doc-compendium-divination",
+      "filename": "The Practitioner's Compendium of Indian Astrology, Numerology & Palmistry.pdf",
+      "status": "success",
+      "chunks": 12,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    },
+    {
+      "id": "doc-levi-magic",
+      "filename": "the-mysteries-of-magic-eliphas-levi-arthur-edward-waite-1389.pdf",
+      "status": "success",
+      "chunks": 540,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    },
+    {
+      "id": "doc-hartmann-magic",
+      "filename": "magicwhiteblack00hart_0.pdf",
+      "status": "success",
+      "chunks": 383,
+      "lowQualityChunks": 2,
+      "textLayerStatus": "partial",
+      "error": null
+    },
+    {
+      "id": "doc-bowen-blackmagic",
+      "filename": "blackmagic.pdf",
+      "status": "success",
+      "chunks": 281,
+      "lowQualityChunks": 0,
+      "textLayerStatus": "good",
+      "error": null
+    }
+  ],
+  "processDocuments": [
+    "process-doc-01",
+    "process-doc-02",
+    "process-doc-03",
+    "process-doc-04",
+    "process-doc-05",
+    "process-doc-06",
+    "process-doc-07",
+    "process-doc-08",
+    "process-doc-09",
+    "process-doc-10"
+  ],
+  "methodologySections": 159
+}

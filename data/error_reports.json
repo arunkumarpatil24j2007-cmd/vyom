@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ERR-1792418903121",
+    "receivedAt": "2026-10-19T14:08:23.121Z",
+    "category": "Calculation Discrepancy",
+    "description": "Test report for Google Sheets sync verification",
+    "email": "test@vyom.internal",
+    "pageUrl": "http://localhost:5173/kundli"
+  },
+  {
+    "id": "ERR-1792418979530",
+    "receivedAt": "2026-10-19T14:09:39.530Z",
+    "timestamp": "2026-10-19T14:09:39.528Z",
+    "category": "Calculation Discrepancy",
+    "description": "Testing planetary degree alignment report",
+    "email": "Anonymous",
+    "pageUrl": "http://localhost:5173/",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "screenResolution": "1512x861"
+  },
+  {
+    "id": "ERR-1792419028333",
+    "receivedAt": "2026-10-19T14:10:28.333Z",
+    "timestamp": "2026-10-19T14:10:28.332Z",
+    "category": "Calculation Discrepancy",
+    "description": "Testing planetary degree alignment report",
+    "email": "Anonymous",
+    "pageUrl": "http://localhost:5173/",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "screenResolution": "1512x861"
+  },
+  {
+    "id": "ERR-1792419842556",
+    "receivedAt": "2026-10-19T14:24:02.556Z",
+    "category": "Visual / Layout Glitch",
+    "description": "Live end-to-end pipeline verification test from Vyom",
+    "email": "arunkumarpatil@vyom.internal",
+    "pageUrl": "http://localhost:5173/astrologer",
+    "screenResolution": "1512x861",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7)"
+  }
+]

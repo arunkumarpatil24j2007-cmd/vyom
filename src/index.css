@@ -1,0 +1,350 @@
+@import "tailwindcss";
+
+/* ═══════════════════════════════════════════════════════════════
+   VYOM — Cosmic Luxury Design System
+   Source of Truth: Reference Palette & Liquid Glass Philosophy
+   ═══════════════════════════════════════════════════════════════ */
+
+@theme {
+  --color-cream: #FEF6EB;
+  --color-cream-surface: #F5EDE2;
+  --color-cream-card: #FAF2E8;
+  --color-cream-border: #E8DCCB;
+  --color-cream-darker: #E5D6C1;
+
+  --color-navy: #09132E;
+  --color-navy-surface: #101B3B;
+  --color-navy-card: #15224A;
+  --color-navy-border: rgba(255, 255, 255, 0.12);
+
+  --color-solar-orange: #FF4B19;
+  --color-solar-orange-hover: #E83F0F;
+  --color-solar-orange-dim: rgba(255, 75, 25, 0.12);
+
+  --color-celestial-gold: #FF9A20;
+  --color-celestial-gold-hover: #F28C10;
+  --color-celestial-gold-dim: rgba(255, 154, 32, 0.12);
+
+  --color-karmic-red: #E32636;
+  --color-karmic-red-dim: rgba(227, 38, 54, 0.12);
+
+  --color-cosmic-green: #08745B;
+  --color-cosmic-green-dim: rgba(8, 116, 91, 0.12);
+
+  --color-text-navy: #09132E;
+  --color-text-body: #4A5468;
+  --color-text-muted: #7E889B;
+
+  --font-sans: 'Plus Jakarta Sans', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+}
+
+/* ═══ Base Reset ═══ */
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #D6C8B5 transparent;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #FEF6EB;
+  color: #09132E;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #FEF6EB;
+  color: #09132E;
+  overflow-x: hidden;
+}
+
+#root {
+  min-height: 100vh;
+  background-color: #FEF6EB;
+}
+
+::selection {
+  background: rgba(255, 75, 25, 0.2);
+  color: #09132E;
+}
+
+/* ═══ Liquid Glass & Pill Buttons ═══ */
+
+/* Solar Orange Primary Pill CTA */
+.btn-pill-orange {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.75rem;
+  border-radius: 9999px;
+  background-color: #FF4B19;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  letter-spacing: -0.01em;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow:
+    0 12px 28px -4px rgba(255, 75, 25, 0.45),
+    inset 0 1.5px 1.5px 0 rgba(255, 255, 255, 0.45),
+    inset 0 -2px 4px 0 rgba(0, 0, 0, 0.15);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-pill-orange:hover {
+  background-color: #F04110;
+  transform: translateY(-1.5px);
+  box-shadow:
+    0 16px 34px -4px rgba(255, 75, 25, 0.55),
+    inset 0 1.5px 1.5px 0 rgba(255, 255, 255, 0.6);
+}
+
+.btn-pill-orange:active {
+  transform: translateY(0.5px) scale(0.98);
+  box-shadow: 0 6px 16px -2px rgba(255, 75, 25, 0.4);
+}
+
+/* Secondary Cream Liquid Glass Pill */
+.btn-pill-cream {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.625rem;
+  padding: 0.875rem 1.625rem;
+  border-radius: 9999px;
+  background-color: rgba(245, 237, 226, 0.85);
+  color: #09132E;
+  font-weight: 700;
+  font-size: 0.9375rem;
+  border: 1px solid #D6C8B5;
+  box-shadow:
+    0 4px 14px rgba(0, 0, 0, 0.04),
+    inset 0 1px 1px 0 rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-pill-cream:hover {
+  background-color: #EBDDCB;
+  border-color: #C8B7A1;
+  transform: translateY(-1px);
+}
+
+.btn-pill-cream:active {
+  transform: translateY(0.5px) scale(0.98);
+}
+
+/* Dark Navy Liquid Glass Pill (like "Get Vyom ->") */
+.btn-pill-navy-glass {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.625rem 1.375rem;
+  border-radius: 9999px;
+  background: rgba(16, 27, 59, 0.85);
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow:
+    0 8px 24px rgba(9, 19, 46, 0.4),
+    inset 0 1px 1.5px 0 rgba(255, 255, 255, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn-pill-navy-glass:hover {
+  background: rgba(20, 34, 74, 0.95);
+  border-color: rgba(255, 255, 255, 0.35);
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px rgba(9, 19, 46, 0.5);
+}
+
+/* Feature Card Liquid Glass Capsule Pill (Bottom Cards) */
+.glass-pill-capsule {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.625rem 1.125rem;
+  border-radius: 9999px;
+  backdrop-filter: blur(18px) saturate(1.4);
+  -webkit-backdrop-filter: blur(18px) saturate(1.4);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.25),
+    inset 0 1.5px 1.5px rgba(255, 255, 255, 0.4);
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 0.875rem;
+  transition: all 0.25s ease;
+}
+
+.glass-pill-capsule:hover {
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* ═══ Surface Styles ═══ */
+
+/* Cream Card (rounded 28px) */
+.card-cream {
+  background-color: #FFFFFF;
+  border-radius: 28px;
+  border: 1px solid #E8DCCB;
+  box-shadow: 0 6px 20px -2px rgba(9, 19, 46, 0.04);
+}
+
+.card-cream-warm {
+  background-color: #F8EFE4;
+  border-radius: 28px;
+  border: 1px solid #E4D5BF;
+  box-shadow: 0 6px 20px -2px rgba(9, 19, 46, 0.04);
+}
+
+/* Navy Cosmic Card (rounded 28px) */
+.card-navy {
+  background: linear-gradient(145deg, #101B3B 0%, #09132E 100%);
+  border-radius: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #FFFFFF;
+  box-shadow: 0 12px 36px -4px rgba(9, 19, 46, 0.3);
+}
+
+/* ═══ Navigation Pills ═══ */
+
+.nav-pill-active {
+  background-color: #EDE3D4;
+  color: #09132E;
+  font-weight: 700;
+  border-radius: 9999px;
+  padding: 0.375rem 1rem;
+}
+
+.nav-pill-inactive {
+  color: #4A5468;
+  font-weight: 500;
+  border-radius: 9999px;
+  padding: 0.375rem 1rem;
+  transition: all 0.15s ease;
+}
+
+.nav-pill-inactive:hover {
+  color: #09132E;
+  background-color: rgba(237, 227, 212, 0.5);
+}
+
+/* ═══ Form Input Controls ═══ */
+
+.input-pill {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  border-radius: 9999px;
+  background-color: #FFFFFF;
+  border: 1px solid #D6C8B5;
+  color: #09132E;
+  font-size: 0.875rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-pill:focus {
+  border-color: #FF4B19;
+  box-shadow: 0 0 0 3px rgba(255, 75, 25, 0.15);
+}
+
+.input-card {
+  width: 100%;
+  padding: 0.875rem 1.25rem;
+  border-radius: 18px;
+  background-color: #FFFFFF;
+  border: 1px solid #D6C8B5;
+  color: #09132E;
+  font-size: 0.875rem;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.input-card:focus {
+  border-color: #FF4B19;
+  box-shadow: 0 0 0 3px rgba(255, 75, 25, 0.15);
+}
+
+/* ═══ Animations ═══ */
+
+@keyframes floatSlow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(0.5deg); }
+}
+
+@keyframes spinSlow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulseWarm {
+  0%, 100% { opacity: 0.7; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.02); }
+}
+
+.animate-float-slow {
+  animation: floatSlow 8s ease-in-out infinite;
+}
+
+.animate-spin-slow {
+  animation: spinSlow 60s linear infinite;
+}
+
+.animate-pulse-warm {
+  animation: pulseWarm 4s ease-in-out infinite;
+}
+
+/* ═══ Phase 16: Cursor-Responsive Tactile Cards ═══ */
+
+.interactive-card {
+  --pointer-x: 50%;
+  --pointer-y: 50%;
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.25s ease;
+}
+
+.interactive-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0;
+  background: radial-gradient(
+    280px circle at var(--pointer-x) var(--pointer-y),
+    rgba(255, 75, 25, 0.08),
+    transparent 70%
+  );
+  transition: opacity 200ms ease;
+  border-radius: inherit;
+}
+
+.interactive-card:hover::before {
+  opacity: 1;
+}
+
+.interactive-card-dark::before {
+  background: radial-gradient(
+    320px circle at var(--pointer-x) var(--pointer-y),
+    rgba(255, 255, 255, 0.12),
+    transparent 70%
+  );
+}

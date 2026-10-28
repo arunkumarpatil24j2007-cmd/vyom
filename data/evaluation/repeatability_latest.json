@@ -1,0 +1,331 @@
+{
+  "runAt": "2026-10-28T06:07:57.927Z",
+  "summary": {
+    "runsPerCase": 3,
+    "analysisAgreement": "100%",
+    "timingWithinWindows": "100%",
+    "outlookPresenceStable": "80%",
+    "finalChartContradictions": 0,
+    "stanceConsistency_modelJudged": "100%",
+    "matchesEstablishedBalance_modelJudged": "100%",
+    "meanEvidenceOverlap": "0.73",
+    "changedInputReanalysed": true,
+    "earlierErrorsNotPerpetuated": true,
+    "generationFailures": 0
+  },
+  "thresholds": {
+    "analysisAgreement": true,
+    "timingWithinWindows": true,
+    "noChartContradictions": true,
+    "stanceConsistency": true,
+    "changedInputs": true,
+    "noErrorPerpetuation": true
+  },
+  "report": [
+    {
+      "id": "R1",
+      "label": "Same relationship question",
+      "request": {
+        "question": "What does my chart say about my relationships and marriage?",
+        "birthDetails": {
+          "birthDate": "1995-02-15",
+          "birthTime": "12:30",
+          "birthTimePrecision": "exact",
+          "latitude": 12.9716,
+          "longitude": 77.5946,
+          "timezone": "Asia/Kolkata"
+        }
+      },
+      "line": "R1 Same relationship question: runs=3/3 analysis=identical timing=within windows outlook=UNSTABLE violations=0 evidenceOverlap=0.33 wordingOverlap=0.58 stance=consistent",
+      "signatures": [
+        "marriage|mixed|tentative|w-Moon-Moon-2028,w-Moon-Mars-2029,w-Moon-Jupiter-2031,w-Moon-Saturn-2032|f-dignity-Mars:challenging,f-occupant-7-Jupiter:supporting,f-aspect-7-Saturn:supporting,f-cancel-Mars:mitigating,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging",
+        "marriage|mixed|tentative|w-Moon-Moon-2028,w-Moon-Mars-2029,w-Moon-Jupiter-2031,w-Moon-Saturn-2032|f-dignity-Mars:challenging,f-occupant-7-Jupiter:supporting,f-aspect-7-Saturn:supporting,f-cancel-Mars:mitigating,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging",
+        "marriage|mixed|tentative|w-Moon-Moon-2028,w-Moon-Mars-2029,w-Moon-Jupiter-2031,w-Moon-Saturn-2032|f-dignity-Mars:challenging,f-occupant-7-Jupiter:supporting,f-aspect-7-Saturn:supporting,f-cancel-Mars:mitigating,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging"
+      ],
+      "violations": [],
+      "judge": {
+        "consistent": true,
+        "matchesBalance": [
+          true,
+          true,
+          true
+        ],
+        "note": "All three answers consistently describe a mixed outlook for relationships, aligning with the fixed analytical judgement."
+      },
+      "answers": [
+        {
+          "heading": "Navigating partnership with balance and patience",
+          "text": "Your chart presents a balanced and mixed picture for partnerships, combining steady support with areas that require conscious patience and effort. Traditional indicators suggest that while relationships benefit from strong commitment and care over time, they also involve navigating initial hurdles, differing expectations, or delays. For instance, you might find that open communication and personal growth help smooth over misunderstandings when priorities shift. Treat this as a general thematic reflection rather than a fixed destiny.",
+          "confidence": "Tentative reading"
+        },
+        {
+          "heading": "Navigating partnership with balance and patience",
+          "text": "Your chart presents a balanced and mixed picture for partnerships, combining steady support with areas that require conscious patience and effort. Traditional indicators suggest that while relationships benefit from strong commitment and care over time, they also involve navigating initial hurdles, differing expectations, or delays. For instance, you might find that open communication and personal growth help smooth over misunderstandings when priorities shift. Treat this as a general thematic reflection rather than a fixed destiny.",
+          "confidence": "Tentative reading"
+        },
+        {
+          "heading": "Partnership patterns and long-term connection",
+          "text": "Your chart suggests a mixed picture for relationships, combining strong elements of commitment with areas that require patience and conscious effort. You might find that partnerships involve navigating different expectations or periods of transition before finding stability. This means building a lasting connection calls for open communication and working through challenges together rather than expecting effortless ease. Treat this as a possible theme rather than a fixed outcome, as much depends on personal choices.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2028-07-21→2029-05-22",
+            "2029-05-22→2029-12-21",
+            "2031-06-22→2032-10-21",
+            "2032-10-21→2034-05-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "label": "Same marriage-timing question",
+      "request": {
+        "question": "When is marriage most likely to happen for me?",
+        "birthDetails": {
+          "birthDate": "1995-02-15",
+          "birthTime": "12:30",
+          "birthTimePrecision": "exact",
+          "latitude": 12.9716,
+          "longitude": 77.5946,
+          "timezone": "Asia/Kolkata"
+        }
+      },
+      "line": "R2 Same marriage-timing question: runs=3/3 analysis=identical timing=within windows outlook=stable violations=0 evidenceOverlap=1.00 wordingOverlap=1.00 stance=consistent",
+      "signatures": [
+        "marriage|mixed|tentative|w-Moon-Moon-2028,w-Moon-Mars-2029,w-Moon-Jupiter-2031,w-Moon-Saturn-2032|f-dignity-Mars:challenging,f-occupant-7-Jupiter:supporting,f-aspect-7-Saturn:supporting,f-cancel-Mars:mitigating,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging",
+        "marriage|mixed|tentative|w-Moon-Moon-2028,w-Moon-Mars-2029,w-Moon-Jupiter-2031,w-Moon-Saturn-2032|f-dignity-Mars:challenging,f-occupant-7-Jupiter:supporting,f-aspect-7-Saturn:supporting,f-cancel-Mars:mitigating,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging",
+        "marriage|mixed|tentative|w-Moon-Moon-2028,w-Moon-Mars-2029,w-Moon-Jupiter-2031,w-Moon-Saturn-2032|f-dignity-Mars:challenging,f-occupant-7-Jupiter:supporting,f-aspect-7-Saturn:supporting,f-cancel-Mars:mitigating,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging"
+      ],
+      "violations": [],
+      "judge": {
+        "consistent": true,
+        "matchesBalance": [
+          true,
+          true,
+          true
+        ],
+        "note": "All answers are identical and accurately reflect the mixed analytical judgement."
+      },
+      "answers": [
+        {
+          "heading": "Potential Timing Windows for Partnership",
+          "text": "Your chart shows a mix of supportive and challenging themes regarding marriage, meaning this area requires steady effort and patience rather than following a simple path. However, treat this as a possible timeline and a broad thematic guide, not a fixed prediction or a certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2028-07-21→2029-05-22",
+            "2029-05-22→2029-12-21",
+            "2031-06-22→2032-10-21",
+            "2032-10-21→2034-05-22"
+          ]
+        },
+        {
+          "heading": "Potential Timing Windows for Partnership",
+          "text": "Your chart shows a mix of supportive and challenging themes regarding marriage, meaning this area requires steady effort and patience rather than following a simple path. However, treat this as a possible timeline and a broad thematic guide, not a fixed prediction or a certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2028-07-21→2029-05-22",
+            "2029-05-22→2029-12-21",
+            "2031-06-22→2032-10-21",
+            "2032-10-21→2034-05-22"
+          ]
+        },
+        {
+          "heading": "Potential Timing Windows for Partnership",
+          "text": "Your chart shows a mix of supportive and challenging themes regarding marriage, meaning this area requires steady effort and patience rather than following a simple path. However, treat this as a possible timeline and a broad thematic guide, not a fixed prediction or a certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2028-07-21→2029-05-22",
+            "2029-05-22→2029-12-21",
+            "2031-06-22→2032-10-21",
+            "2032-10-21→2034-05-22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R3",
+      "label": "Conflicting indicators (career)",
+      "request": {
+        "question": "Is my chart good for career success?",
+        "birthDetails": {
+          "birthDate": "2000-01-01",
+          "birthTime": "12:00",
+          "birthTimePrecision": "exact",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "timezone": "Asia/Kolkata"
+        }
+      },
+      "line": "R3 Conflicting indicators (career): runs=3/3 analysis=identical timing=within windows outlook=stable violations=0 evidenceOverlap=1.00 wordingOverlap=0.57 stance=consistent",
+      "signatures": [
+        "career|mixed|tentative|w-Saturn-Sun-2030|f-aspect-10-Jupiter:supporting,f-dignity-Saturn:challenging,f-occupant-10-Mercury:challenging,f-occupant-10-Sun:supporting,f-cancel-Saturn:mitigating",
+        "career|mixed|tentative|w-Saturn-Sun-2030|f-aspect-10-Jupiter:supporting,f-dignity-Saturn:challenging,f-occupant-10-Mercury:challenging,f-occupant-10-Sun:supporting,f-cancel-Saturn:mitigating",
+        "career|mixed|tentative|w-Saturn-Sun-2030|f-aspect-10-Jupiter:supporting,f-dignity-Saturn:challenging,f-occupant-10-Mercury:challenging,f-occupant-10-Sun:supporting,f-cancel-Saturn:mitigating"
+      ],
+      "violations": [],
+      "judge": {
+        "consistent": true,
+        "matchesBalance": [
+          true,
+          true,
+          true
+        ],
+        "note": "All three answers consistently describe a mixed career picture with balanced supportive and challenging indicators."
+      },
+      "answers": [
+        {
+          "heading": "A mixed and balanced outlook for professional life",
+          "text": "Your professional path is supported by strong directional indicators, but it also asks for careful patience through periods of restructuring. You might find yourself taking on leadership responsibilities, reviewing your strategy, or managing demanding workloads that require steady focus. Because supportive and challenging influences are closely balanced, treat this as a mixed picture where success depends largely on your own sustained effort. There is no single fixed guarantee, but rather an ongoing process of building stability over time.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2030-06-02→2031-05-15"
+          ]
+        },
+        {
+          "heading": "A mixed and balanced outlook for professional life",
+          "text": "Your professional path is supported by strong directional indicators, but it also asks for careful patience through periods of restructuring. You might find yourself taking on leadership responsibilities, reviewing your strategy, or managing demanding workloads that require steady focus. Because supportive and challenging influences are closely balanced, treat this as a mixed picture where success depends largely on your own sustained effort. There is no single fixed guarantee, but rather an ongoing process of building stability over time.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2030-06-02→2031-05-15"
+          ]
+        },
+        {
+          "heading": "A Career Shaped by Both Ambition and Careful Persistence",
+          "text": "Your chart shows a mixed picture for career success, combining strong driving influences with areas that require careful patience and conscious effort. You might find yourself balancing ambitious leadership goals with periods where professional progress demands extra persistence or dealing with unexpected friction. Because supporting and challenging indicators are closely balanced, treat this as a possible theme rather than a fixed certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2030-06-02→2031-05-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "label": "Incomplete chart (unknown birth time)",
+      "request": {
+        "question": "What does my chart say about marriage?",
+        "birthDetails": {
+          "birthDate": "1995-02-15",
+          "birthTime": "",
+          "birthTimePrecision": "unknown",
+          "latitude": 12.9716,
+          "longitude": 77.5946,
+          "timezone": "Asia/Kolkata"
+        }
+      },
+      "line": "R4 Incomplete chart (unknown birth time): runs=3/3 analysis=identical timing=within windows outlook=stable violations=0 evidenceOverlap=0.33 wordingOverlap=0.59 stance=consistent",
+      "signatures": [
+        "marriage|mixed|tentative|no-windows|f-dignity-Saturn:supporting,f-occupant-7-Mercury:supporting,f-aspect-7-Mars:challenging,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging",
+        "marriage|mixed|tentative|no-windows|f-dignity-Saturn:supporting,f-occupant-7-Mercury:supporting,f-aspect-7-Mars:challenging,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging",
+        "marriage|mixed|tentative|no-windows|f-dignity-Saturn:supporting,f-occupant-7-Mercury:supporting,f-aspect-7-Mars:challenging,f-dusthana-Venus:challenging,f-varga-D9-Venus:challenging"
+      ],
+      "violations": [],
+      "judge": {
+        "consistent": true,
+        "matchesBalance": [
+          true,
+          true,
+          true
+        ],
+        "note": "All three answers consistently convey a mixed outlook for marriage with identical caveats about the unknown birth time."
+      },
+      "answers": [
+        {
+          "heading": "A stable foundation balanced with areas that need ongoing attention and patience",
+          "text": "Your traditional chart points to a mixed picture for partnerships, where a strong foundation of stability is balanced by periods requiring patience and open communication. You might experience times when professional routines or different personal priorities create temporary friction that needs honest discussion to resolve. Because your exact birth time is not known, this overview should be treated as a general tendency rather than a specific certainty.",
+          "confidence": "Tentative reading"
+        },
+        {
+          "heading": "A balanced path for partnership that values both stability and open communication",
+          "text": "Your chart suggests a mixed picture for marriage, balancing solid foundational support with periods where patience and open communication are needed. For example, you might experience deep loyalty and stability in a partnership, alongside occasional friction or differing expectations that require honest conversations to resolve. Because your exact birth time is not known, treat this as a general thematic reflection rather than a specific prediction. To get a more precise picture, having an exact birth time is essential.",
+          "confidence": "Tentative reading"
+        },
+        {
+          "heading": "A balanced path for partnership that values both stability and open communication",
+          "text": "Your chart suggests a mixed picture for marriage, balancing solid foundational support with periods where patience and open communication are needed. For example, you might experience deep loyalty and stability in a partnership, alongside occasional friction or differing expectations that require honest conversations to resolve. Because your exact birth time is not known, treat this as a general thematic reflection rather than a specific prediction. To get a more precise picture, having an exact birth time is essential.",
+          "confidence": "Tentative reading"
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "label": "Uncertain-timing prediction",
+      "request": {
+        "question": "What do the next few years hold for my career?",
+        "birthDetails": {
+          "birthDate": "2000-01-01",
+          "birthTime": "12:00",
+          "birthTimePrecision": "exact",
+          "latitude": 28.6139,
+          "longitude": 77.209,
+          "timezone": "Asia/Kolkata"
+        }
+      },
+      "line": "R5 Uncertain-timing prediction: runs=3/3 analysis=identical timing=within windows outlook=stable violations=0 evidenceOverlap=1.00 wordingOverlap=1.00 stance=consistent",
+      "signatures": [
+        "career|mixed|tentative|w-Saturn-Sun-2030|f-aspect-10-Jupiter:supporting,f-dignity-Saturn:challenging,f-occupant-10-Mercury:challenging,f-occupant-10-Sun:supporting,f-cancel-Saturn:mitigating",
+        "career|mixed|tentative|w-Saturn-Sun-2030|f-aspect-10-Jupiter:supporting,f-dignity-Saturn:challenging,f-occupant-10-Mercury:challenging,f-occupant-10-Sun:supporting,f-cancel-Saturn:mitigating",
+        "career|mixed|tentative|w-Saturn-Sun-2030|f-aspect-10-Jupiter:supporting,f-dignity-Saturn:challenging,f-occupant-10-Mercury:challenging,f-occupant-10-Sun:supporting,f-cancel-Saturn:mitigating"
+      ],
+      "violations": [],
+      "judge": {
+        "consistent": true,
+        "matchesBalance": [
+          true,
+          true,
+          true
+        ],
+        "note": "All three answers are identical and accurately reflect the mixed judgment."
+      },
+      "answers": [
+        {
+          "heading": "A balanced path of steady effort and professional growth",
+          "text": "Your career path is marked by a mix of strong ambition and necessary adjustments, meaning progress comes through steady persistence rather than overnight leaps. You might find yourself taking on leadership responsibilities or organizing complex projects, while also navigating periodic delays or shifting priorities. This combination suggests a time of professional growth built on careful planning and resilience. Treat this outlook as a general thematic window rather than a fixed certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2030-06-02→2031-05-15"
+          ]
+        },
+        {
+          "heading": "A balanced path of steady effort and professional growth",
+          "text": "Your career path is marked by a mix of strong ambition and necessary adjustments, meaning progress comes through steady persistence rather than overnight leaps. You might find yourself taking on leadership responsibilities or organizing complex projects, while also navigating periodic delays or shifting priorities. This combination suggests a time of professional growth built on careful planning and resilience. Treat this outlook as a general thematic window rather than a fixed certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2030-06-02→2031-05-15"
+          ]
+        },
+        {
+          "heading": "A balanced path of steady effort and professional growth",
+          "text": "Your career path is marked by a mix of strong ambition and necessary adjustments, meaning progress comes through steady persistence rather than overnight leaps. You might find yourself taking on leadership responsibilities or organizing complex projects, while also navigating periodic delays or shifting priorities. This combination suggests a time of professional growth built on careful planning and resilience. Treat this outlook as a general thematic window rather than a fixed certainty.",
+          "confidence": "Tentative reading",
+          "outlookWindows": [
+            "2030-06-02→2031-05-15"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "C1",
+      "label": "Corrected birth data triggers re-analysis",
+      "passed": true,
+      "before": {
+        "heading": "Partnerships Involve Balance, Patience, and Commitment",
+        "text": "Your chart presents a mixed picture for marriage, suggesting that partnerships involve both meaningful support and areas that require conscious effort. While traditional indicators point to a steady, committed foundation over time, initial challenges or delays can also arise. For example, you might find that building a lasting relationship takes patience, honest communication, and working through different expectations. Treat this as a general thematic reflection rather than a fixed prediction."
+      },
+      "after": {
+        "heading": "Partnerships Involve Balance, Patience, and Commitment",
+        "text": "Your updated birth chart presents a mixed picture for marriage, where meaningful emotional support and steady partnership are balanced by periods requiring patience and deliberate effort. Building a lasting bond will likely involve working through different expectations and keeping open lines of communication. Treat this as a general thematic reflection rather than a fixed prediction."
+      }
+    },
+    {
+      "id": "E1",
+      "label": "Earlier errors are corrected, not repeated",
+      "passed": true,
+      "answer": {
+        "heading": "What your chart indicates about partnership and marriage",
+        "text": "Your chart suggests a partnership that combines steady commitment with areas that require patience and conscious effort. Supportive influences help protect the relationship, while other factors indicate that building strong communication is especially important. This reading presents a mixed possibility rather than a fixed certainty, and real life will depend heavily on mutual understanding and effort."
+      },
+      "violations": []
+    }
+  ]
+}
