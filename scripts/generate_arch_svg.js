@@ -1,0 +1,184 @@
+import fs from 'fs';
+
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 640" width="100%" height="100%" style="background: #09132E; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09132E" />
+      <stop offset="50%" stop-color="#0D1A3E" />
+      <stop offset="100%" stop-color="#070E22" />
+    </linearGradient>
+    <linearGradient id="clientGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1A2750" />
+      <stop offset="100%" stop-color="#101C3E" />
+    </linearGradient>
+    <linearGradient id="engineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F243E" />
+      <stop offset="100%" stop-color="#0B1B30" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9A20" />
+      <stop offset="100%" stop-color="#FFD166" />
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF4B19" />
+      <stop offset="100%" stop-color="#FF7A45" />
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#08745B" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="640" fill="url(#bgGrad)" />
+
+  <!-- Outer Frame -->
+  <rect x="20" y="20" width="1160" height="600" rx="20" fill="none" stroke="#E8DCCB" stroke-opacity="0.15" stroke-width="1.5" />
+
+  <!-- Header -->
+  <g transform="translate(50, 50)">
+    <circle cx="10" cy="10" r="5" fill="#FF4B19" />
+    <text x="26" y="14" fill="#FF9A20" font-size="11" font-weight="700" letter-spacing="1.5">SYSTEM ARCHITECTURE</text>
+    <text x="0" y="44" fill="#FEF6EB" font-size="24" font-weight="800">Vyom Multi-Tier Technical Architecture</text>
+    <text x="0" y="68" fill="#9BA3B8" font-size="13">High-performance React 19 SPA, zero-dependency Sidereal Ephemeris, Parashari Shastric Rules, BM25 RAG, and Gemini 3 Flash</text>
+  </g>
+
+  <!-- ════════ COLUMN 1: CLIENT TIER (Width: 340) ════════ -->
+  <g transform="translate(50, 140)">
+    <rect width="340" height="440" rx="14" fill="url(#clientGrad)" stroke="#E8DCCB" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="0" y="0" width="340" height="4" rx="2" fill="url(#goldGrad)" />
+    
+    <text x="20" y="32" fill="#FF9A20" font-size="11" font-weight="700" letter-spacing="1">TIER 1 • CLIENT INTERACTION</text>
+    <text x="20" y="55" fill="#FEF6EB" font-size="17" font-weight="700">Browser (React 19 + Vite 8)</text>
+
+    <!-- Block 1: 3D Scene -->
+    <g transform="translate(20, 75)">
+      <rect width="300" height="60" rx="8" fill="#09132E" stroke="#E8DCCB" stroke-opacity="0.1" />
+      <text x="14" y="24" fill="#FEF6EB" font-size="13" font-weight="600">3D Cosmic Scene (WebGL)</text>
+      <text x="14" y="44" fill="#8892B0" font-size="11">Three.js + React Three Fiber + Drei • Zodiac Orbitals</text>
+    </g>
+
+    <!-- Block 2: Interactive Modules -->
+    <g transform="translate(20, 145)">
+      <rect width="300" height="110" rx="8" fill="#09132E" stroke="#E8DCCB" stroke-opacity="0.1" />
+      <text x="14" y="24" fill="#FEF6EB" font-size="13" font-weight="600">Feature Views &amp; Renderers</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">• North &amp; South Indian SVG Chart Diagrams</text>
+      <text x="14" y="62" fill="#C5CEE0" font-size="11">• Vimshottari 120-Year Dasha Timeline Visualizer</text>
+      <text x="14" y="80" fill="#C5CEE0" font-size="11">• 36-Guna Ashtakoota Compatibility Radar</text>
+      <text x="14" y="98" fill="#C5CEE0" font-size="11">• Daily Panchang (Tithi, Vara, Yoga, Karana, Nakshatra)</text>
+    </g>
+
+    <!-- Block 3: Astrologer UI -->
+    <g transform="translate(20, 265)">
+      <rect width="300" height="75" rx="8" fill="#09132E" stroke="#FF4B19" stroke-opacity="0.3" />
+      <text x="14" y="24" fill="#FF7A45" font-size="13" font-weight="600">AI Astrologer Interface</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">Structured Reading Component with progressive</text>
+      <text x="14" y="60" fill="#C5CEE0" font-size="11">disclosure (Summary → Findings → Evidence → Texts)</text>
+    </g>
+
+    <!-- Block 4: Privacy Store -->
+    <g transform="translate(20, 350)">
+      <rect width="300" height="65" rx="8" fill="#09132E" stroke="#E8DCCB" stroke-opacity="0.1" />
+      <text x="14" y="24" fill="#34D399" font-size="13" font-weight="600">Guest-First Ephemeral Store</text>
+      <text x="14" y="44" fill="#8892B0" font-size="11">Zero tracking. Memory-first session state with explicit</text>
+      <text x="14" y="58" fill="#8892B0" font-size="11">privacy wipe. No personal data leaks to third parties.</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector 1 -> 2 -->
+  <g transform="translate(400, 340)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#FF9A20" stroke-width="2" stroke-dasharray="4 4" />
+    <polygon points="30,0 22,-4 22,4" fill="#FF9A20" />
+    <text x="15" y="-10" fill="#FF9A20" font-size="9" font-weight="700" text-anchor="middle">REST / SSE</text>
+  </g>
+
+  <!-- ════════ COLUMN 2: SERVER & PIPELINE (Width: 340) ════════ -->
+  <g transform="translate(440, 140)">
+    <rect width="340" height="440" rx="14" fill="url(#engineGrad)" stroke="#E8DCCB" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="0" y="0" width="340" height="4" rx="2" fill="url(#emeraldGrad)" />
+
+    <text x="20" y="32" fill="#34D399" font-size="11" font-weight="700" letter-spacing="1">TIER 2 • ORCHESTRATION &amp; RULES</text>
+    <text x="20" y="55" fill="#FEF6EB" font-size="17" font-weight="700">Vite Server Plugin (Node.js)</text>
+
+    <!-- Block 1: Gateway -->
+    <g transform="translate(20, 75)">
+      <rect width="300" height="60" rx="8" fill="#09132E" stroke="#E8DCCB" stroke-opacity="0.1" />
+      <text x="14" y="24" fill="#FEF6EB" font-size="13" font-weight="600">API Gateway &amp; Question Router</text>
+      <text x="14" y="44" fill="#8892B0" font-size="11">POST /api/ai/chat • Domain Classification &amp; Safety Triage</text>
+    </g>
+
+    <!-- Block 2: Pure TS Calculation Engine -->
+    <g transform="translate(20, 145)">
+      <rect width="300" height="110" rx="8" fill="#09132E" stroke="#10B981" stroke-opacity="0.3" />
+      <text x="14" y="24" fill="#34D399" font-size="13" font-weight="600">Deterministic Sidereal Engine</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">• VSOP87 Analytical Solar &amp; Planetary Ephemeris</text>
+      <text x="14" y="62" fill="#C5CEE0" font-size="11">• Lahiri Ayanamsha (Chitrapaksha) Anchor</text>
+      <text x="14" y="80" fill="#C5CEE0" font-size="11">• True Ascendant (Lagna) &amp; Whole Sign Houses</text>
+      <text x="14" y="98" fill="#C5CEE0" font-size="11">• 27 Nakshatras, 108 Padas, D9 &amp; D10 Divisional Vargas</text>
+    </g>
+
+    <!-- Block 3: Parashari Rule Engine -->
+    <g transform="translate(20, 265)">
+      <rect width="300" height="75" rx="8" fill="#09132E" stroke="#10B981" stroke-opacity="0.3" />
+      <text x="14" y="24" fill="#34D399" font-size="13" font-weight="600">Parashari Shastric Rule Engine</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">• 20+ Yogas (Mahapurusha, Gajakesari, Neechabhanga)</text>
+      <text x="14" y="60" fill="#C5CEE0" font-size="11">• Multi-Condition Dosha Cancellations (Mangala, Sade Sati)</text>
+    </g>
+
+    <!-- Block 4: Domain Assessment & Caching -->
+    <g transform="translate(20, 350)">
+      <rect width="300" height="65" rx="8" fill="#09132E" stroke="#E8DCCB" stroke-opacity="0.1" />
+      <text x="14" y="24" fill="#FEF6EB" font-size="13" font-weight="600">Domain Assessor &amp; Caching</text>
+      <text x="14" y="44" fill="#8892B0" font-size="11">Weights factors: Support, Challenge, Mitigation</text>
+      <text x="14" y="58" fill="#8892B0" font-size="11">Cache Key: hash(ChartSignature + QuestionIntent)</text>
+    </g>
+  </g>
+
+  <!-- Flow Connector 2 -> 3 -->
+  <g transform="translate(790, 340)">
+    <line x1="0" y1="0" x2="30" y2="0" stroke="#FF4B19" stroke-width="2" stroke-dasharray="4 4" />
+    <polygon points="30,0 22,-4 22,4" fill="#FF4B19" />
+    <text x="15" y="-10" fill="#FF4B19" font-size="9" font-weight="700" text-anchor="middle">RAG / PROMPT</text>
+  </g>
+
+  <!-- ════════ COLUMN 3: KNOWLEDGE & AI (Width: 320) ════════ -->
+  <g transform="translate(830, 140)">
+    <rect width="320" height="440" rx="14" fill="url(#clientGrad)" stroke="#E8DCCB" stroke-opacity="0.2" stroke-width="1" />
+    <rect x="0" y="0" width="320" height="4" rx="2" fill="url(#orangeGrad)" />
+
+    <text x="20" y="32" fill="#FF7A45" font-size="11" font-weight="700" letter-spacing="1">TIER 3 • KNOWLEDGE &amp; SYNTHESIS</text>
+    <text x="20" y="55" fill="#FEF6EB" font-size="17" font-weight="700">Classical RAG + Gemini 3</text>
+
+    <!-- Block 1: Curated Corpus -->
+    <g transform="translate(20, 75)">
+      <rect width="280" height="110" rx="8" fill="#09132E" stroke="#FF9A20" stroke-opacity="0.3" />
+      <text x="14" y="24" fill="#FF9A20" font-size="13" font-weight="600">Classical Shastra Corpus (BM25)</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">• 2,845+ Chunks across 11 Texts</text>
+      <text x="14" y="62" fill="#C5CEE0" font-size="11">• BPHS, Phaladeepika, Saravali, Brihat Jataka</text>
+      <text x="14" y="80" fill="#C5CEE0" font-size="11">• Strict Source-Kind Filtering Policy</text>
+      <text x="14" y="98" fill="#C5CEE0" font-size="11">• 10 Internal Process &amp; Methodology Docs</text>
+    </g>
+
+    <!-- Block 2: AI Provider -->
+    <g transform="translate(20, 195)">
+      <rect width="280" height="95" rx="8" fill="#09132E" stroke="#FF4B19" stroke-opacity="0.3" />
+      <text x="14" y="24" fill="#FF7A45" font-size="13" font-weight="600">Model Inference (Server-Side)</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">• Primary: Google Gemini 3 Flash</text>
+      <text x="14" y="62" fill="#C5CEE0" font-size="11">• Fallback: OpenRouter / Qwen 3.8-27B</text>
+      <text x="14" y="80" fill="#C5CEE0" font-size="11">• Secure server-side credential isolation</text>
+    </g>
+
+    <!-- Block 3: Response Validator -->
+    <g transform="translate(20, 300)">
+      <rect width="280" height="115" rx="8" fill="#09132E" stroke="#08745B" stroke-opacity="0.4" />
+      <text x="14" y="24" fill="#34D399" font-size="13" font-weight="600">Response Contract Validator</text>
+      <text x="14" y="44" fill="#C5CEE0" font-size="11">• Post-generation JSON schema validation</text>
+      <text x="14" y="62" fill="#C5CEE0" font-size="11">• Enforces factor roles (Support/Challenge)</text>
+      <text x="14" y="80" fill="#C5CEE0" font-size="11">• Validates timing windows against Dasha</text>
+      <text x="14" y="98" fill="#C5CEE0" font-size="11">• Scrubs internal leakage &amp; hallucinations</text>
+    </g>
+  </g>
+</svg>
+`;
+
+fs.writeFileSync('docs/assets/architecture-system.svg', svg);
+console.log('architecture-system.svg generated successfully!');
